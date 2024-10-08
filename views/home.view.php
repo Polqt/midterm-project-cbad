@@ -1,5 +1,9 @@
-<?php require('partials/header.php') ?>
+<?php require 'partials/preloader.php'; ?>
+<?php require 'partials/header.php'; ?>
 
-<p><?php echo $_SESSION['name']; ?></p>
+<!-- Home Content, initially hidden -->
+<div id="home-content" style="display: none;">
+    <p><?php echo $_SESSION['name']; ?></p>
+</div>
 
-<?php require('partials/footer.php') ?>
+<?php require 'partials/footer.php'; ?>

@@ -4,6 +4,8 @@ https://www.sebjf.dev/
 https://portfolio-oconer.fellowdevs.io/
 https://www.razeenf.ca/
 https://dev-philip.vercel.app/
+https://darkmate.framer.website/contact
+https://cyberfolio.framer.website/contact
 
 ## Fonts
 
