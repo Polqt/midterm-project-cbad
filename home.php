@@ -9,7 +9,8 @@ if (!isset($_SESSION['name'])) {
 
 $title = 'Home';
 $icon = '';
-$style = 'main.css';
+$style = 'public/styles/main.css';
+$main_style = 'public/styles/home.css';
 $script = 'script.js';
 
 require 'views/home.view.php';

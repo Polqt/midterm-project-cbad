@@ -19,7 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $title = 'Login';
 $icon = '';
-$main_style = 'main.css';
-$style = 'index.css';
+$style = 'public/styles/main.css';
 
 require 'views/index.view.php';
