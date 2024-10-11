@@ -3,3 +3,50 @@
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#wave {
+    display: inline-block;
+    transform-origin: 70% 70%; 
+    animation: wave 1.5s ease-in-out infinite;
+}
+
+#socials {
+    position: relative;
+    overflow: hidden;
+}
+
+#socials::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93, #ff6700);
+    background-size: 400%;
+    animation: glow 20s linear infnite;
+    z-index: -1;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 400% 0; 
+    }
+}
+
+#bento {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}

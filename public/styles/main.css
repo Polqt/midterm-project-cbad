@@ -7,7 +7,11 @@
 body {
     font-family: "Atkinson Hyperlegible", sans-serif;
     background-color: #0f0f0f;
-    color: gray; /* not sure */
+    color: gray; 
+}
+
+h1 {
+    font-size: 48px;
 }
 
 .sidebar svg:hover {
