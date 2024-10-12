@@ -12,6 +12,6 @@ $title = 'Home';
 $icon = '';
 $style = 'public/styles/main.css';
 $main_style = 'public/styles/home.css';
-$script = 'script.js';
+$script = 'public/js/script.js';
 
 require 'views/home.view.php';

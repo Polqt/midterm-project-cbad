@@ -5,6 +5,6 @@ $title = 'About';
 $icon = '';
 $style = 'public/styles/main.css';
 $main_style = 'public/styles/about.css';
-$script = 'about.js';
+$script = 'public/js/about.js';
 
 require 'views/about.view.php';

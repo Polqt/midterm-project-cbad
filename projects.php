@@ -5,6 +5,6 @@ $title = 'Projects';
 $icon = '';
 $style = 'public/styles/main.css';
 $main_style = 'public/styles/projects.css';
-$script = 'projects.js';
+$script = 'public/js/projects.js';
 
 require 'views/projects.view.php';

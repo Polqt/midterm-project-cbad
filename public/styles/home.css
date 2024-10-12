@@ -21,6 +21,19 @@
     animation: wave 1.5s ease-in-out infinite;
 }
 
+#name {
+    animation: color 8s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% { color: red; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: green; }
+  80% { color: blue; }
+  100% { color: purple; }
+}
+
 #socials {
     position: relative;
     overflow: hidden;
