@@ -6,7 +6,7 @@ const resetInactivityTimer = () => {
     inactivityTimeout = setTimeout(() => {
         navigator.sendBeacon('end_session.php');
         window.location.href = 'index.php';
-    }, 60000); // 1 minute
+    }, 600000); // 1 minute
 }
 
 window.addEventListener('mousemove', resetInactivityTimer);

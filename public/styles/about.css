@@ -1,0 +1,45 @@
+.scroll-wrapper {
+    white-space: nowrap; 
+}
+
+.scroll-text {
+    animation: scroll 20s linear infinite; 
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); } 
+    100% { transform: translateX(-100%); } 
+}
+
+.bento {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+.bento .box.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bento .small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.arrow {
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.left-arrow {
+    left: 0.2rem;
+}
+
+.right-arrow {
+    right: 0.2rem;
+}
+
+#certification-container:hover .arrow {
+    opacity: 1;
+}

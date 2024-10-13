@@ -1,6 +1,6 @@
 <?php
 require 'functions.php';
-require 'session.php';
+// require 'session.php';
 
 $title = 'Projects';
 $icon = '';

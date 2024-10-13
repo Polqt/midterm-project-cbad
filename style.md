@@ -1,8 +1,7 @@
 https://docs.google.com/spreadsheets/d/1EGRT9yiERDnPuc_p3KzERbEKK_n4BeoqyxoTF6Sk6YQ/edit?gid=1797566924#gid=1797566924
-https://www.naseeh.in/
 https://www.sebjf.dev/
-https://www.razeenf.ca/
 https://dev-philip.vercel.app/
+https://tinod.me/
 https://cyberfolio.framer.website/contact
 
 ## Fonts
@@ -38,6 +37,10 @@ https://cyberfolio.framer.website/contact
   font-style: italic;
 }
 ```
+
+## Icons
+
+https://devicon.dev/
 
 
 ## Colors
