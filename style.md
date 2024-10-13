@@ -1,7 +1,6 @@
 https://docs.google.com/spreadsheets/d/1EGRT9yiERDnPuc_p3KzERbEKK_n4BeoqyxoTF6Sk6YQ/edit?gid=1797566924#gid=1797566924
 https://www.naseeh.in/
 https://www.sebjf.dev/
-https://portfolio-oconer.fellowdevs.io/
 https://www.razeenf.ca/
 https://dev-philip.vercel.app/
 https://cyberfolio.framer.website/contact

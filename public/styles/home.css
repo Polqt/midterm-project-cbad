@@ -1,9 +1,3 @@
-#home-content {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
 @keyframes wave {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
@@ -12,7 +6,6 @@
     40% { transform: rotate(-4deg); }
     50% { transform: rotate(10deg); }
     60% { transform: rotate(0deg); }
-    100% { transform: rotate(0deg); }
 }
 
 #wave {
@@ -26,40 +19,78 @@
 }
 
 @keyframes color {
-  0% { color: red; }
-  20% { color: orange; }
-  40% { color: yellow; }
-  60% { color: green; }
-  80% { color: blue; }
-  100% { color: purple; }
+    0% { color: red; }
+    20% { color: orange; }
+    40% { color: yellow; }
+    60% { color: green; }
+    80% { color: blue; }
+    100% { color: purple; }
 }
 
-#socials {
-    position: relative;
-    overflow: hidden;
-}
-
-#socials::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(45deg, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93, #ff6700);
-    background-size: 400%;
-    animation: glow 20s linear infnite;
-    z-index: -1;
-}
-
-@keyframes glow {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 400% 0; 
-    }
-}
-
-#bento {
+.bento {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.bento .box.wide {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.bento .box.tall {
+    grid-column: span 1;
+    grid-row: span 4;
+}
+
+.bento .box.semi {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bento .box.small {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.bento .box.large {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.box.wide #cover, 
+.box.semi a, 
+.box.large {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box.wide #cover {
+    background-image: url('https://images.unsplash.com/photo-1645397430059-0d9dc7775405?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    overflow: hidden;
+}
+
+.box.semi a {
+    background-image: url('https://www.sebjf.dev/img/github-bg.webp');
+}
+
+.box.large {
+    background-image: url('https://images.unsplash.com/photo-1545968369-6ef79a4c54fe?q=80&w=1763&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.scroll-wrapper {
+    white-space: nowrap;
+    animation: scroll 20s linear infinite; 
+}
+
+.scroll-text span {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
