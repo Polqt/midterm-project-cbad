@@ -16,7 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 };
 
-
 $title = 'Login';
 $icon = '';
 $style = 'public/styles/main.css';

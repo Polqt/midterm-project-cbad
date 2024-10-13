@@ -1,17 +1,12 @@
 <?php
 require 'functions.php';
-session_start();
-
-if (!isset($_SESSION['name'])) {
-    header('Location: index.php');
-    exit;
-}
-
+require 'session.php';
 
 $title = 'Home';
 $icon = '';
 $style = 'public/styles/main.css';
-$main_style = 'public/styles/home.css';
-$script = 'public/js/script.js';
+$main_style = 'public/styles/style.css';
+$script = 'public/js/home.js';
+$main_script = 'public/js/script.js';
 
 require 'views/home.view.php';
