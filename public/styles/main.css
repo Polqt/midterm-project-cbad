@@ -14,9 +14,24 @@ h1 {
     font-size: 48px;
 }
 
-.sidebar svg:hover {
-    fill: var(--bs-white);
-    transition: fill 0.3s ease-in-out;
+#sidebar {
+    width: 250px;
+}
+
+.nav-link {
+    transition: color 0.3s ease; 
+}
+
+.nav-link:hover {
+    color: white !important; 
+}
+
+.nav-link svg {
+    transition: fill 0.3s ease;
+}
+
+.nav-link:hover svg {
+    fill: white !important;
 }
 
 #date {

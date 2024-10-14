@@ -2,9 +2,11 @@
 <!-- <?php require 'partials/preloader.php'; ?> -->
 
 <div class="container-fluid h-100">
-    <?php require 'partials/sidebar.php' ?>
-    <div class="row">
-        <div class="col-12 col-md-10 col-lg-8 col-sm-3 m-auto">
+    <div class="row h-100">
+        <div class="col-sm-9 col-md-2">
+            <?php require 'partials/sidebar.php' ?>
+        </div>
+        <div class="col-sm-3 col-md-10">
             <!-- Main Content -->
             <div class="d-flex justify-content-center align-items-center flex-column min-vh-100">
                 <div class="w-50 d-flex align-items-center gap-3 mb-5">
@@ -61,9 +63,11 @@
 
                             <!-- Resume -->
                             <div class="box small d-flex justify-content-center align-items-center bg-info rounded-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="white" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
-                                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755" />
-                                </svg>
+                                <a href="https://drive.google.com/file/d/1tFPSu5FqTBPGPg6X0s586D9cgGGydxwx/view" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="white" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+                                        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755" />
+                                    </svg>
+                                </a>
                             </div>
 
                             <!-- Certifications -->

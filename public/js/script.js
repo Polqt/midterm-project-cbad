@@ -25,3 +25,8 @@ window.addEventListener('beforeunload', function (event) {
     }
     navigator.sendBeacon('end_session.php');
 });
+
+// Dates
+const date = new Date();
+
+let time = date.toLocaleTimeString();

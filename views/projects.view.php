@@ -1,14 +1,16 @@
-<?php require 'partials/header.php'; ?>
-<!-- <?php require 'partials/preloader.php'; ?> -->
+<?php require 'partials/header.php' ?>
+<!-- <?php require 'partials/preloader.php' ?> -->
 
 <div class="container-fluid h-100">
-    <?php require 'partials/sidebar.php' ?>
-    <div class="row">
-        <div class="col-12 col-md-10 col-lg-8 col-sm-3 m-auto">
+    <div class="row h-100">
+        <div class="col-sm-9 col-md-2">
+            <?php require 'partials/sidebar.php' ?>
+        </div>
+        <div class="col-sm-3 col-md-10">
             <!-- Main Content -->
-            <div class="d-flex justify-content-center align-items-center flex-column min-vh-100">
+            <div class="w-100 d-flex justify-content-center align-items-center flex-column min-vh-100">
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 m-4 p-3 gap-4">
-                    <img src="" alt="Pantry Tracker" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1682071308392-2e7a285fc11c?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pantry Tracker" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">Pantry Tracker</h5>
                         <p>
@@ -28,11 +30,12 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="" alt="Task Tracker CLI" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Task Tracker CLI" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">Task Tracker CLI</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            Task Tracker CLI is a command-line tool designed for efficiently managing and tracking tasks,
+                            allowing users to create, update, delete, and prioritize their to-do lists from the terminal.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="24" height="24" />
@@ -46,11 +49,12 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-4 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="https://images.unsplash.com/photo-1517935491970-e2d8a02412fe?q=80&w=1722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Joke Generator" class="border border-dark img-fluid rounded-2" width="250" height="200">
+                    <img src="https://images.unsplash.com/photo-1527538079466-b6297ad15363?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Joke Generator" class="border border-dark img-fluid rounded-2" width="200" height="200">
                     <div class="w-50">
                         <h5 class="text-white">Joke Generator</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            Joke Generator is a web application that utilizes an API to fetch random jokes,
+                            providing users with a light-hearted and entertaining experience.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="24" height="24" />
@@ -65,11 +69,11 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="" alt="Blog App" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog App" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">Blog App</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            Blog App is a platform for creating, managing, and sharing blog posts.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="24" height="24" />
@@ -85,11 +89,11 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="" alt="QR Code Generator" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1706759755782-62bc9a0b32e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="QR Code Generator" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">QR Code Generator</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            QR Code Generator is a web application that allows users to easily create custom QR codes for URLs, text, and other data.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="24" height="24" />
@@ -106,11 +110,11 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="" alt="HeroWin" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1526515579900-98518e7862cc?q=80&w=1759&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="HeroWin" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">HeroWin</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            HeroWin is an action-packed console game featuring epic battles and an immersive storyline.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="24" height="24" />
@@ -124,11 +128,11 @@
                 </div>
 
                 <div class="w-75 d-flex justify-content-start align-items-center border border-dark border-opacity-50 rounded-3 bg-dark bg-opacity-25 mb-4 p-3 gap-4">
-                    <img src="" alt="To-Do List" width="200" height="200" class="border border-dark img-fluid rounded-2">
+                    <img src="https://images.unsplash.com/photo-1598791318878-10e76d178023?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="To-Do List" width="200" height="200" class="border border-dark img-fluid rounded-2">
                     <div class="w-50">
                         <h5 class="text-white">To-Do List</h5>
                         <p>
-                            Pantry Tracker is a web app for managing kitchen inventory and tracking food expiration.
+                            To-Do List app helps users manage tasks and stay organized.
                         </p>
                         <div class="d-flex align-items-center gap-2">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="24" height="24" />
@@ -147,4 +151,4 @@
     </div>
 </div>
 
-<?php require 'partials/footer.php'; ?>
+<?php require 'partials/footer.php' ?>
