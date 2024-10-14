@@ -7,6 +7,7 @@ $icon = '';
 $style = 'public/styles/main.css';
 $main_style = 'public/styles/contacts.css';
 $script = 'public/js/contacts.js';
+$date = 'public/js/date.js';
 $main_script = 'public/js/script.js';
 
 require 'views/contacts.view.php';
