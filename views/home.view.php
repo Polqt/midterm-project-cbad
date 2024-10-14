@@ -1,5 +1,4 @@
 <?php require 'partials/header.php' ?>
-<!-- <?php require 'partials/preloader.php' ?> -->
 
 <div class="container-fluid">
     <div class="row h-100">
